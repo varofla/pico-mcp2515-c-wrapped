@@ -16,7 +16,7 @@ add_library(pico-mcp2515-c-wrapped STATIC
 )
 
 target_include_directories(pico-mcp2515-c-wrapped PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/mcp2515
 )
 
 target_link_libraries(pico-mcp2515-c-wrapped
